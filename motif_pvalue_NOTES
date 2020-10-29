@@ -1,0 +1,26 @@
+This script allows you to map a motif LLR score to its p-value.
+
+Let's say you want to do this for sample/bcd.wtmx
+
+First, check that the pseudocount indicated in the third field
+of the header of the wtmx file is what you want (here, it is set to 1.0)
+
+Second, check that the background distribution of nucleotides is what
+you want (this is in the hash array %hsbkg in the script).
+
+Then run:
+./motif_pvalue2.pl sample/bcd.wtmx sample/out1
+
+Output goes to file sample/out1/bcd.txt
+
+The "Pvalue" field gives a map of LLR to p-value.
+The first column is LLR x 1/$BINCNT, so for instance, when $BINCNT was E4, the 
+highest possible LLR for this motif and background is 6.8086.
+The second column gives the corresponding p-value, i.e.,
+Probability of a randomly sampled string (from background model) having
+LLR greater than or equal to 6.8086.
+
+So, for example, if you want the LLR for which p-value is 0.05,
+the appropriate row will be 
+3502    0.0497718000
+That is, the LLR threshold corresponding to a p-value of 0.05 is 0.3502.

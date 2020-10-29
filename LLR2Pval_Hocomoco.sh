@@ -1,0 +1,19 @@
+#!/bin/bash
+./motif_pvalue2.pl HocoMoco_Shrinked/AR.wtmx HocoMoco_Shrinked
+./motif_pvalue2.pl HocoMoco_Shrinked/CEBPB.wtmx HocoMoco_Shrinked
+./motif_pvalue2.pl HocoMoco_Shrinked/ESR1.wtmx HocoMoco_Shrinked
+./motif_pvalue2.pl HocoMoco_Shrinked/FOXA1.wtmx HocoMoco_Shrinked
+./motif_pvalue2.pl HocoMoco_Shrinked/GATA3.wtmx HocoMoco_Shrinked
+./motif_pvalue2.pl HocoMoco_Shrinked/JUN.wtmx HocoMoco_Shrinked
+./motif_pvalue2.pl HocoMoco_Shrinked/LEF1.wtmx HocoMoco_Shrinked
+./motif_pvalue2.pl HocoMoco_Shrinked/NKX3-1.wtmx HocoMoco_Shrinked
+./motif_pvalue2.pl HocoMoco_Shrinked/NR3C1.wtmx HocoMoco_Shrinked
+./motif_pvalue2.pl HocoMoco_Shrinked/NR5A2.wtmx HocoMoco_Shrinked
+./motif_pvalue2.pl HocoMoco_Shrinked/PBX1.wtmx HocoMoco_Shrinked
+./motif_pvalue2.pl HocoMoco_Shrinked/PGR.wtmx HocoMoco_Shrinked
+./motif_pvalue2.pl HocoMoco_Shrinked/RARA.wtmx HocoMoco_Shrinked
+./motif_pvalue2.pl HocoMoco_Shrinked/RARG.wtmx HocoMoco_Shrinked
+./motif_pvalue2.pl HocoMoco_Shrinked/RUNX1.wtmx HocoMoco_Shrinked
+./motif_pvalue2.pl HocoMoco_Shrinked/RXRA.wtmx HocoMoco_Shrinked
+./motif_pvalue2.pl HocoMoco_Shrinked/SP1.wtmx HocoMoco_Shrinked
+./motif_pvalue2.pl HocoMoco_Shrinked/TFAP2C.wtmx HocoMoco_Shrinked
